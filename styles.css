@@ -1,79 +1,69 @@
 .container {
-width: 730px;
-height: 144px;
-display: flex;
-justify-content: space-evenly;
-
+  width: 730px;
+  height: 144px;
+  display: flex;
+  justify-content: space-evenly;
 }
-.foto{
-width: 40px;
-height: 40px;
-border-radius: 50%;
+.foto {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
 }
-.btn-send{
-width: 104px;
-height: 48px;
-background-color: #5357B6;
-border-radius: 5px;
-color: white;
+.btn-send {
+  width: 104px;
+  height: 48px;
+  background-color: #5357b6;
+  border-radius: 5px;
+  color: white;
 }
 
 #inputTexto {
-width: 506px;
-height: 96px;
-padding: 10px;
-border: 1px solid #ccc;
-border-radius: 3px;
-margin-bottom: 10px;
-font-size: 16px;
+  width: 506px;
+  height: 96px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  font-size: 16px;
 }
 
-/* Estilo para el contenedor principal de comentarios */
 #publicaciones {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  /* Estilo para cada comentario individual */
-  .info {
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin: 10px 0;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  /* Estilo para el nombre de usuario */
-  h4 {
-    color: #333;
-    margin: 0;
-  }
-  
-  /* Estilo para el mensaje de comentario */
-  .msg {
-    margin: 10px 0;
-  }
-  
-  /* Estilo para las imágenes de perfil */
-  img {
-    max-width: 50px;
-    border-radius: 50%;
-  }
-  
-  /* Estilo para los botones de eliminar y editar */
-  .deleteBtn,
-  .editBtn {
-    margin-left: 35%;
-    max-width: 30%;
-    background-color: #da0b0ba1;
-    color: #fff;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
-    margin-top: 5px;
-  }
-  
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
 
-  
+.info {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+h4 {
+  color: #333;
+  margin: 0;
+}
+
+.msg {
+  margin: 10px 0;
+}
+
+img {
+  max-width: 50px;
+  border-radius: 50%;
+}
+
+.deleteBtn,
+.editBtn {
+  margin-left: 35%;
+  max-width: 30%;
+  background-color: #da0b0ba1;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-top: 5px;
+}
