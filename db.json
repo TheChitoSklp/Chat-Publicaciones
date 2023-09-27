@@ -18,5 +18,28 @@
       "usuario": "chito",
       "foto-perfil": "https://lh3.googleusercontent.com/-EDgv4PRz7ts/AAAAAAAAAAI/AAAAAAAAAAA/AFsW0b5pFcyYpV-leK5Vthk3OrChC6doag/photo.jpg?sz=46"
     }
+  ],
+  "users": [
+    {
+      "usuario": "Zita",
+      "foto": "https://instagram.fgdl10-1.fna.fbcdn.net/v/t51.2885-19/353475832_252131750845631_4288403069253205296_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.fgdl10-1.fna.fbcdn.net&_nc_cat=111&_nc_ohc=xU-f40j3PaYAX94brhK&edm=ANmP7GQBAAAA&ccb=7-5&oh=00_AfDVpBI9MNrtyZUuV2ZudQyU3l_zrOdLFAcb58x1ziuCGw&oe=651995D8&_nc_sid=982cc7",
+      "correo": "zitaChavez@gmail.com",
+      "password": "zita1234",
+      "id": 1
+    },
+    {
+      "usuario": "livy",
+      "foto": "https://instagram.fgdl10-1.fna.fbcdn.net/v/t51.2885-19/355852042_231544369735592_5579614228829243672_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.fgdl10-1.fna.fbcdn.net&_nc_cat=1&_nc_ohc=wNpfWldMyHgAX_TZ9QV&edm=ACWDqb8BAAAA&ccb=7-5&oh=00_AfCmnPamwAh2E3Q67TTi3WXxEKAweQV_x69waP__dwlbdA&oe=65198BF6&_nc_sid=ee9879",
+      "correo": "livy@gmail.com",
+      "password": "lyvy1234",
+      "id": 2
+    },
+    {
+      "usuario": "Ashley",
+      "foto": "https://instagram.fgdl10-1.fna.fbcdn.net/v/t51.2885-15/377891551_613269870722654_2579353422482196423_n.jpg?stp=dst-jpg_e35&_nc_ht=instagram.fgdl10-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=8PMlUieHM-4AX-1nImc&edm=ACWDqb8BAAAA&ccb=7-5&ig_cache_key=MzE5MDUwNjU2MTUzMzc0NDkzNw%3D%3D.2-ccb7-5&oh=00_AfB65XpLJECLTAD14El95jYRkuh6R4TB6t6rc3TTFYqkIw&oe=65196F12&_nc_sid=ee9879",
+      "correo": "chito.pepsi4@gmail.com",
+      "password": "carton32",
+      "id": 3
+    }
   ]
 }

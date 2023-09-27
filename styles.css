@@ -67,3 +67,17 @@ img {
   cursor: pointer;
   margin-top: 5px;
 }
+.editBtn {
+  background-color: rgba(18, 18, 170, 0.815);
+}
+.navbar-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.log-in a,
+.register a {
+  text-decoration: none;
+  margin: 10px;
+}
