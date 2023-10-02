@@ -13,6 +13,7 @@ btnEnviar.addEventListener("click", (e) => {
     foto: foto,
     correo: correo,
     password: password,
+    active: false,
   };
   console.log(usuario);
   fetch(url, {

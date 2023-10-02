@@ -1,9 +1,16 @@
+#comentar {
+  display: none;
+  justify-content: center;
+  margin-top: 10px;
+}
 .container {
   width: 730px;
   height: 144px;
   display: flex;
   justify-content: space-evenly;
+  align-items: flex-start;
 }
+
 .foto {
   width: 40px;
   height: 40px;
@@ -31,10 +38,12 @@
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .info {
-  background-color: #f0f0f0;
+  background-color: #dad9d9;
   border: 1px solid #ccc;
   padding: 10px;
   margin: 10px 0;
@@ -52,7 +61,8 @@ h4 {
 }
 
 img {
-  max-width: 50px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
 }
 
@@ -76,8 +86,90 @@ img {
   list-style: none;
 }
 
-.log-in a,
 .register a {
   text-decoration: none;
   margin: 10px;
+}
+/* Estilos para el formulario y el contenedor */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  justify-content: center;
+  align-items: center;
+}
+.form-login {
+  display: flex;
+  flex-direction: column;
+}
+/* Estilos para el encabezado del formulario */
+.login-header {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Estilos para las etiquetas */
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Estilos para los campos de entrada */
+input[type="email"],
+input[type="password"] {
+  width: 200px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Estilos para el botón de inicio de sesión */
+.login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
+
+.register {
+  text-align: center;
+}
+#log,
+#register {
+  text-decoration: none;
+  color: #007bff;
+  margin: 10px;
+}
+
+.no-loged {
+  background-color: #ffcccc;
+  padding: 10px;
+  border: 1px solid #ff0000;
+  font-weight: bold;
+  text-align: center;
+}
+.log-reg {
+  display: flex;
+  justify-content: center;
+}
+#cerrar {
+  display: none;
+  border: 0px;
+  background-color: rgba(255, 15, 15, 0.865);
+  color: white;
+  border-radius: 5px;
 }

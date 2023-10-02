@@ -8,20 +8,14 @@
   </head>
   <body>
     <main>
-      <nav class="navbar">
-        <ul class="navbar-list">
-          <li class="log-in"><a href="./login.html">Log in</a></li>
-          <li class="register"><a href="./register.html">Register</a></li>
-        </ul>
-      </nav>
-      <section id="mensajes" class="container">
-        <img
-          class="foto"
-          src="https://lh3.googleusercontent.com/-EDgv4PRz7ts/AAAAAAAAAAI/AAAAAAAAAAA/AFsW0b5pFcyYpV-leK5Vthk3OrChC6doag/photo.jpg?sz=46"
-        />
-        <textarea id="inputTexto" placeholder="Add a comment.."></textarea>
-        <button id="btnSend" class="btn-send">SEND</button>
-      </section>
+      <div class="log-reg">
+        <a id="log" href="./login.html">login</a>
+        <a id="register" href="./register.html">register</a>
+      </div>
+      <button id="cerrar" type="button">Cerrar sesion</button>
+
+      <div class="no-loged">Inicia sesion para poder publicar</div>
+      <div id="comentar"></div>
       <div id="publicaciones"></div>
     </main>
     <script type="module" src="./js/main.js"></script>
